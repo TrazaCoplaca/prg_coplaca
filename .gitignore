@@ -1,0 +1,5 @@
+echo [Bb]in/ > .gitignore
+echo [Ob]j/ >> .gitignore
+echo .vs/ >> .gitignore
+echo *.zip >> .gitignore
+echo *.user >> .gitignore
