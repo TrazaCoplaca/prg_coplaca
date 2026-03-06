@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="EncryptedDataSource" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EncryptedCatalog" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EncryptedUserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EncryptedPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UsuarioSession" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PwdSesion" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="clientIdBc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">9d97f179-bcdb-4620-b079-ec3d26cb1415</Value>
+    </Setting>
+    <Setting Name="clientSecret" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FT78Q~cnAhi-hMn-FjIWnx1W.PMreywcrZyxxcAW</Value>
+    </Setting>
+    <Setting Name="tenanId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c036d0fb-e0d2-4094-920d-eaa0f8ecd5ce</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

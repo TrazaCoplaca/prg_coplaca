@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Progs\\WpfEmbarques\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B76483C6-0E0A-40C7-97E9-80F8C0BA2D65}|WpfEmbarques\\WpfEmbarques.vbproj|c:\\progs\\wpfembarques\\wpfembarques\\paginaprincipal.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B76483C6-0E0A-40C7-97E9-80F8C0BA2D65}|WpfEmbarques\\WpfEmbarques.vbproj|solutionrelative:wpfembarques\\paginaprincipal.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76483C6-0E0A-40C7-97E9-80F8C0BA2D65}|WpfEmbarques\\WpfEmbarques.vbproj|c:\\progs\\wpfembarques\\wpfembarques\\utils\\importardatosbc.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B76483C6-0E0A-40C7-97E9-80F8C0BA2D65}|WpfEmbarques\\WpfEmbarques.vbproj|solutionrelative:wpfembarques\\utils\\importardatosbc.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76483C6-0E0A-40C7-97E9-80F8C0BA2D65}|WpfEmbarques\\WpfEmbarques.vbproj|c:\\progs\\wpfembarques\\wpfembarques\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{B76483C6-0E0A-40C7-97E9-80F8C0BA2D65}|WpfEmbarques\\WpfEmbarques.vbproj|solutionrelative:wpfembarques\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 170,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaginaPrincipal.xaml.vb",
+              "DocumentMoniker": "C:\\Progs\\WpfEmbarques\\WpfEmbarques\\PaginaPrincipal.xaml.vb",
+              "RelativeDocumentMoniker": "WpfEmbarques\\PaginaPrincipal.xaml.vb",
+              "ToolTip": "C:\\Progs\\WpfEmbarques\\WpfEmbarques\\PaginaPrincipal.xaml.vb",
+              "RelativeToolTip": "WpfEmbarques\\PaginaPrincipal.xaml.vb",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-06T11:27:17.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "importarDatosBc.vb",
+              "DocumentMoniker": "C:\\Progs\\WpfEmbarques\\WpfEmbarques\\Utils\\importarDatosBc.vb",
+              "RelativeDocumentMoniker": "WpfEmbarques\\Utils\\importarDatosBc.vb",
+              "ToolTip": "C:\\Progs\\WpfEmbarques\\WpfEmbarques\\Utils\\importarDatosBc.vb",
+              "RelativeToolTip": "WpfEmbarques\\Utils\\importarDatosBc.vb",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAcwGoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-06T11:24:38.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Progs\\WpfEmbarques\\WpfEmbarques\\My Project\\Settings.settings",
+              "RelativeDocumentMoniker": "WpfEmbarques\\My Project\\Settings.settings",
+              "ToolTip": "C:\\Progs\\WpfEmbarques\\WpfEmbarques\\My Project\\Settings.settings",
+              "RelativeToolTip": "WpfEmbarques\\My Project\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2026-03-06T11:25:51.063Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

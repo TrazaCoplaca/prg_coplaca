@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PWOlEQTxU9E=",
+  "success": true,
+  "projectFilePath": "C:\\Progs\\WpfEmbarques\\InformesQuestPdf\\InformesQuestPdf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david.COPLACA\\.nuget\\packages\\questpdf\\2025.4.0\\questpdf.2025.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

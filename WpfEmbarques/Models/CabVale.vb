@@ -1,0 +1,31 @@
+﻿Public Class CabVale
+    Public Property idVale_cva As Long
+    Public Property idCoop_cva As String
+    Public Property idEmpa_cva As String
+    Public Property Sem_cva As String
+    Public Property Fecha_cva As DateTime?
+    Public Property Matr_cva As String
+    Public Property Trans_cva As Integer?
+    Public Property Mattrac_cva As String
+    Public Property Temp_cva As String
+    Public Property NTerm_cva As String
+    Public Property Origen_cva As String
+    Public Property Cargador_cva As Integer?
+    Public Property Naviera_cva As Integer?
+    Public Property Buque_cva As Integer?
+    Public Property Destino_cva As String
+    Public Property SemEmb_cva As String
+    Public Property PalRet_cva As Boolean?
+    Public Property NPalRet_cva As Long?
+    Public Property CajPlast_cva As Boolean?
+    Public Property nCajPlast_cva As Long?
+    Public Property FrutSemAnt_cva As Boolean?
+    Public Property observaciones_cva As String
+    Public Property isla_cva As Integer?
+    Public Property nTerm1_cva As String
+    Public Property nTerm2_cva As String
+    Public Property BiTemp_cva As Boolean?
+    Public Property Temp2_cva As String
+    Public Property OrdExp_cva As String
+    Public Property Traspasado_cva As Boolean
+End Class

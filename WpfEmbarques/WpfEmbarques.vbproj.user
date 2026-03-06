@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="PaginaPrincipal.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\CabeceraView.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\CabeceraWindow.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ConexionWindow.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ConfiguracionWindow.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\DatosDeInteresView.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditarDatosInteresWindow.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\InicioView.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\LineaValeWindow.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\LoadingOverlay.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\LoginWindow.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ObsCabValeWindow.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UsuariosView.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UsuarioWindowxaml.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\VisorPdfWindow.xaml.vb">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\LineaValeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

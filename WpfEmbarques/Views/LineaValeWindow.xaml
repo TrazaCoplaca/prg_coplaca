@@ -1,0 +1,243 @@
+﻿<Window x:Class="LineaValeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfEmbarques"
+        mc:Ignorable="d"
+        Title="LineasVale" Height="372" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="BotonGrabar"
+               TargetType="Button">
+            <Setter Property="Background"
+                    Value="Green" />
+            <Setter Property="Foreground"
+                    Value="White" />
+            <Setter Property="FontWeight"
+                    Value="Bold" />
+            <Setter Property="Padding"
+                    Value="10,5" />
+            <Setter Property="Margin"
+                    Value="5" />
+            <Setter Property="Cursor"
+                    Value="Hand" />
+        </Style>
+
+        <Style x:Key="BotonCancelar"
+               TargetType="Button">
+            <Setter Property="Background"
+                    Value="Red" />
+            <Setter Property="Foreground"
+                    Value="White" />
+            <Setter Property="FontWeight"
+                    Value="Bold" />
+            <Setter Property="Padding"
+                    Value="10,5" />
+            <Setter Property="Margin"
+                    Value="5" />
+            <Setter Property="Cursor"
+                    Value="Hand" />
+        </Style>
+
+        <Style x:Key="BotonSecundario"
+               TargetType="Button">
+            <Setter Property="Background"
+                    Value="DarkGray" />
+            <Setter Property="Foreground"
+                    Value="White" />
+            <Setter Property="FontWeight"
+                    Value="Bold" />
+            <Setter Property="Padding"
+                    Value="5" />
+            <Setter Property="Cursor"
+                    Value="Hand" />
+        </Style>
+        <ObjectDataProvider x:Key="ProductosSource"
+                            ObjectType="{x:Type local:ProductoService}"
+                            MethodName="ObtenerProductos" />
+        <ObjectDataProvider x:Key="TipoPaletSource"
+                            ObjectType="{x:Type local:ServicioGlobal}"
+                            MethodName="ObtenerTipoPalet" />
+        <ObjectDataProvider x:Key="TipoCajaSource"
+                            ObjectType="{x:Type local:ServicioGlobal}"
+                            MethodName="ObtenerTipoCaja" />
+        <ObjectDataProvider x:Key="ListaTransportista"
+                            ObjectType="{x:Type local:ServicioGlobal}"
+                            MethodName="ObtenerTrnasportista"/>
+        
+        
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0"
+            Orientation="Horizontal"
+            HorizontalAlignment="Right"
+            Margin="5">
+            <Button Content="✔️"
+            Style="{StaticResource BotonGrabar}"
+            Click="BtnGuardar_Click" />
+            <Button Content="❌"
+            Style="{StaticResource BotonCancelar}"
+            Margin="5,0,0,0"
+            Click="BtnCancelar_Click" />
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1"
+              VerticalScrollBarVisibility="Auto"
+              Margin="0,10,0,0">
+            <GroupBox Header="Línea de Embarque"
+              FontSize="18"
+              FontWeight="Bold"
+              Foreground="DarkGreen"
+              BorderBrush="DarkGreen"
+              BorderThickness="2"
+              Margin="5,0,5,10"
+              Padding="15,15,15,15">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70*" />
+                            <ColumnDefinition Width="249*" />
+
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Orientation="Vertical"
+                            Margin="5">
+                            <Label Content="C.Prod"
+                           Style="{StaticResource LabelGeneral}" />
+                            <TextBox x:Name="txtCProd"
+                                     Style="{StaticResource CajaTexto}"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1"
+                            Orientation="Vertical"
+                            Margin="5">
+                            <Label Content="Producto"
+                           Style="{StaticResource LabelGeneral}" />
+                            <ComboBox x:Name="cmbProductos"
+                                      Grid.Column="1"
+                                      ItemsSource="{Binding ListaProductos}"
+                                      SelectedValuePath="cod_prod"
+                                      DisplayMemberPath="des_prod"
+                                      Style ="{StaticResource CajaComboRedondeado}"/>
+                        </StackPanel>
+                     </Grid>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50*" />
+                            <ColumnDefinition Width="75*" />
+                            <ColumnDefinition Width="75*" />
+                            <ColumnDefinition Width="75*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Orientation="Vertical"
+                                   Margin="5">
+                            <Label Content="Peso Neto"
+                                   HorizontalAlignment="Center"
+                                   Style="{StaticResource LabelGeneral}"/>
+                                    <TextBox x:Name="txtPneto"
+                                             IsReadOnly="False"
+                                             IsTabStop="False"
+                                             Style="{StaticResource CajaNumerica}"/>
+                                </StackPanel>
+                        
+                        <StackPanel Grid.Column="1"
+                                    Orientation="Vertical"
+                                    Margin="5">
+                            
+                            <Label Content="Nº Cajas"
+                                   HorizontalAlignment="Center"
+                                   Style="{StaticResource LabelGeneral}"/>
+                            
+                            <TextBox x:Name="txtCajas"
+                                     Style="{StaticResource CajaNumerica}"/>
+                            
+                        </StackPanel>
+                        
+                        <StackPanel Grid.Column="2"
+                                    Orientation="Vertical"
+                                    Margin="5">
+                            
+                            <Label Content="Total de Kilos"
+                                   HorizontalAlignment="Center"
+                                    Style="{StaticResource LabelGeneral}"/>
+                                    
+                            <TextBox x:Name="txtTotKilos"
+                                     IsReadOnly="True"
+                                     Style="{StaticResource CajaNumerica}"/>        
+                            
+                        </StackPanel>
+                        
+                        <StackPanel Grid.Column="3"
+                                    Orientation="Vertical"
+                                    Margin="5">
+                            
+                            <Label Content="Nº de Palets"
+                                     HorizontalAlignment="Center"
+                                     Style="{StaticResource LabelGeneral}"/>
+                            
+                            <TextBox x:Name="txtNPalets"
+                                     Style="{StaticResource CajaNumerica}"/>
+                            
+                        </StackPanel>
+                        
+                    </Grid>
+                    <Grid Grid.Row="3">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100*" />
+                            <ColumnDefinition Width="100*" />
+                        </Grid.ColumnDefinitions>
+                        
+                        <StackPanel Orientation="Vertical"
+                                    Margin="5">
+                            
+                            <Label Content="Tipo de Caja"
+                                     HorizontalAlignment="Center"
+                                     Style="{StaticResource LabelGeneral}"/>
+                            
+                            <ComboBox x:Name="cmbTipCaja"
+                                    Grid.Column="1"
+                                    ItemsSource="{Binding ListaTipoCaja}"
+                                    SelectedValuePath="idCodigo_tCaja"
+                                    DisplayMemberPath="TipoCaja_tCaja"   
+                                    Style="{StaticResource CajaComboRedondeado}"/>
+                        
+                        </StackPanel>
+                        
+                        <StackPanel Grid.Column="1"
+                                    Orientation="Vertical"
+                                     Margin="5">
+                            
+                            <Label Content="Tipo de Palet"
+                                    HorizontalAlignment="Center"
+                                    Style="{StaticResource LabelGeneral}"/>    
+                            
+                            <ComboBox x:Name="cmbTipPalet"
+                                    Grid.Column="2"
+                                    ItemsSource="{Binding ListaTipoPalet}"
+                                    SelectedValuePath="idCodigo_tPal"
+                                    DisplayMemberPath="TipoPalet_tPal" 
+                                    Style="{StaticResource CajaComboRedondeado}"/>     
+                            
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </GroupBox>
+        </ScrollViewer>
+    </Grid>
+</Window>

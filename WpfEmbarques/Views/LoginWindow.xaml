@@ -1,0 +1,40 @@
+﻿<Window x:Class="LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfEmbarques"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Background="ForestGreen"
+        Title="LoginWindow" Height="300" Width="400">
+   
+    <Grid Margin="30">
+        <StackPanel>
+            <TextBlock Text="Usuario"
+                       Foreground="White" />
+            <TextBox x:Name="txtUsuario"
+                     Style="{StaticResource CajaTexto}"/>
+
+            <TextBlock Text="Contraseña"
+                       Foreground="White"
+                       Margin="0,10,0,0" />
+            <PasswordBox x:Name="txtContrasena"
+                         Style="{StaticResource Password}"/>
+            <TextBox x:Name="TxtVisible"
+                      Width="200"
+                      Visibility="Collapsed"
+                      TextChanged="txtVisible_TextChanged"/>
+            <CheckBox x:Name="chkMostrar"
+                  Content="Mostrar contraseña"
+                  Margin="0,10,0,0"
+                  Checked="chkMostrar_Checked"
+                  Unchecked="chkMostrar_Unchecked" />   
+            <Button Content="Iniciar sesión"
+                    
+                    Margin="0,20,0,0"
+                    Click="BtnIniciarSesion_Click"
+                    Style="{StaticResource BotonPrincipal}" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,93 @@
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Black.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-BlackItalic.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Bold.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-BoldItalic.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraBold.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraLight.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Italic.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Light.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-LightItalic.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Medium.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-MediumItalic.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Regular.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-SemiBold.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Thin.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ThinItalic.ttf
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\OFL.txt
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\InformesQuestPdf.deps.json
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\InformesQuestPdf.dll
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\InformesQuestPdf.pdb
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.csproj.AssemblyReference.cache
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.AssemblyInfoInputs.cache
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.AssemblyInfo.cs
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.csproj.CoreCompileInputs.cache
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.dll
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\refint\InformesQuestPdf.dll
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.pdb
+C:\Users\Centeno\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\ref\InformesQuestPdf.dll
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Black.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-BlackItalic.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Bold.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-BoldItalic.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraBold.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraLight.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Italic.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Light.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-LightItalic.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Medium.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-MediumItalic.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Regular.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-SemiBold.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Thin.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ThinItalic.ttf
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\OFL.txt
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\InformesQuestPdf.deps.json
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\InformesQuestPdf.dll
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\InformesQuestPdf.pdb
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.csproj.AssemblyReference.cache
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.AssemblyInfoInputs.cache
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.AssemblyInfo.cs
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.csproj.CoreCompileInputs.cache
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.dll
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\refint\InformesQuestPdf.dll
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.pdb
+C:\Users\david.COPLACA\OneDrive - Coplaca Soc. Coop\Aplicaciones\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\ref\InformesQuestPdf.dll
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Black.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-BlackItalic.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Bold.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-BoldItalic.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraBold.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraLight.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Italic.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Light.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-LightItalic.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Medium.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-MediumItalic.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Regular.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-SemiBold.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-Thin.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\Lato-ThinItalic.ttf
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\LatoFont\OFL.txt
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\InformesQuestPdf.deps.json
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\InformesQuestPdf.dll
+C:\Progs\WpfEmbarques\InformesQuestPdf\bin\Debug\net8.0-windows\InformesQuestPdf.pdb
+C:\Progs\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.csproj.AssemblyReference.cache
+C:\Progs\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Progs\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.AssemblyInfoInputs.cache
+C:\Progs\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.AssemblyInfo.cs
+C:\Progs\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.csproj.CoreCompileInputs.cache
+C:\Progs\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.dll
+C:\Progs\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\refint\InformesQuestPdf.dll
+C:\Progs\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\InformesQuestPdf.pdb
+C:\Progs\WpfEmbarques\InformesQuestPdf\obj\Debug\net8.0-windows\ref\InformesQuestPdf.dll

@@ -1,0 +1,97 @@
+﻿<Window x:Class="ConfiguracionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfEmbarques"
+        mc:Ignorable="d"
+        Title="Configuración General"
+        Height="641"
+        Width="550"
+        WindowStartupLocation="CenterScreen"
+        Background="White">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <Label Content="ID Configuración" />
+            <TextBox x:Name="txtId"
+                     Style="{StaticResource CajaTexto}"
+                     Margin="0,5" />
+            <Label Content="Cooperativa" />
+            <TextBox x:Name="txtCoop"
+                     Style="{StaticResource CajaTexto}"
+                     Margin="0,5" />
+            <Label Content="Empaquetado" />
+            <TextBox x:Name="txtEmpa"
+                     Style="{StaticResource CajaTexto}"
+                     Margin="0,5" />
+
+            <Label Content="Nombre Empresa" />
+            <TextBox x:Name="txtNombre"
+                     Style="{StaticResource CajaTexto}"
+                     Margin="0,5" />
+
+            <Label Content="Dirección 1" />
+            <TextBox x:Name="txtDireccion1"
+                     Style="{StaticResource CajaTexto}"
+                     Margin="0,5" />
+
+            <Label Content="Dirección 2" />
+            <TextBox x:Name="txtDireccion2"
+                     Style="{StaticResource CajaTexto}"
+                     Margin="0,5" />
+
+            <Grid Margin="0,10,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="Isla" />
+                    <TextBox x:Name="txtIsla"
+                             Margin="0,5"
+                             Style="{StaticResource CajaTexto}" />
+                </StackPanel>
+
+                <StackPanel Grid.Column="2">
+                    <TextBlock Text="Solo Plátanos" />
+                    <CheckBox x:Name="chkSoloPlatanos"
+                              Margin="0,5"
+                              VerticalAlignment="Center" />
+                </StackPanel>
+            </Grid>
+
+            <StackPanel Margin="0,5">
+                <TextBlock Text="Global" />
+                <CheckBox x:Name="chkGlobal"
+                          Margin="0,5"
+                          VerticalAlignment="Center" />
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="0,10,0,0">
+            <Button x:Name="btnConfig"
+                    Style="{StaticResource BotonConf}"
+                    Click="BtnConfig_Click" />
+            <Button x:Name="btnGrabar"
+                    Style="{StaticResource BotonGrabar}"
+                    Click="BtnGuardar_Click" />
+            <Button x:Name="BtnCancelar"
+                    Style="{StaticResource BotonCancelar}"
+                    Width="80"
+                    Margin="5"
+                    Click="BtnCancelar_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

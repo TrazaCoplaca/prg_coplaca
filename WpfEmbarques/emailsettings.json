@@ -1,0 +1,23 @@
+﻿{
+  "EmailSettings": {
+    "SmtpServer": "smtp.gmail.com",
+    "SmtpPort": 587,
+    "EnableSSL": true,
+    "Remitente": "empaquetados@coplaca.org",
+    "ClaveApp": "jgug sbnj qpxl chgm",
+
+    "Destinatarios": [
+      "trazacan@gmail.com",
+      "ivan@coplaca.org",
+      "mercedes@coplaca.org"
+    ],
+
+    "CC": [
+      "cc0@empresa.com"
+    ],
+
+    "CCO": [
+      "cco1@empresa.com"
+    ]
+  }
+}

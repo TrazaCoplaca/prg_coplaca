@@ -1,0 +1,50 @@
+﻿<Window x:Class="ConexionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Configuración de Conexión"
+        Height="332"
+        Width="400"
+        WindowStartupLocation="CenterScreen"
+        Background="White">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto"
+                           MinHeight="39.96" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            <Label Content="Servidor (Data Source)" />
+            <TextBox x:Name="txtDataSource"
+                     Margin="0,5" />
+
+            <Label Content="Base de Datos (Initial Catalog)" />
+            <TextBox x:Name="txtCatalog"
+                     Margin="0,5" />
+
+            <Label Content="Usuario (User ID)" />
+            <TextBox x:Name="txtUserId"
+                     Margin="0,5" />
+
+            <Label Content="Contraseña (Password)" />
+            <PasswordBox x:Name="txtPassword"
+                         Margin="0,5" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="0,10,0,0"
+                    Width="180">
+            <Button Content="Guardar"
+                    Width="80"
+                    Margin="5"
+                    Click="BtnGuardar_Click" />
+            <Button Content="Cancelar"
+                    Width="80"
+                    Margin="5"
+                    Click="BtnCancelar_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
