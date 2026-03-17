@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agente SQL – Consulta en lenguaje natural</title>
+  <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+  <meta name="description"
+    content="Interfaz web para consultar la base de datos SQL mediante lenguaje natural. Powered by GPT-5.2." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=2.0" />
+</head>
+
+<body>
+
+  <!-- Background decorative blobs -->
+  <div class="bg-blob bg-blob-1"></div>
+  <div class="bg-blob bg-blob-2"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <img src="./assets/img/Logo-Coplaca_Apaisado.png" alt="Coplaca" class="company-logo">
+        <div class="logo-text">
+          <!-- <span class="logo-title">Agente SQL</span> -->
+          <!-- <span class="logo-sub">Asistente de consultas de datos</span> -->
+        </div>
+      </div>
+      <div class="status-badge" id="statusBadge">
+        <span class="status-dot"></span>
+        <span class="status-label">Conectando…</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="main">
+
+    <!-- Hero section -->
+    <section class="hero">
+      <h1 class="hero-title"><span class="gradient-text">Consulta a base de datos</span></h1>
+      <!-- <p class="hero-sub">Sin escribir SQL. Describe lo que necesitas y el agente lo traduce.</p> -->
+    </section>
+
+    <!-- Query card -->
+    <div class="query-card">
+      <form id="queryForm" class="query-form" autocomplete="off">
+        <div class="input-wrapper">
+          <div class="input-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.35-4.35" />
+            </svg>
+          </div>
+          <textarea id="questionInput" class="question-input"
+            placeholder="Escribe tu consulta o usa las búsquedas rápidas..." rows="1" maxlength="500"
+            required></textarea>
+          <button type="submit" id="submitBtn" class="submit-btn" title="Enviar consulta">
+            <span class="btn-text">Consultar</span>
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 2 11 13" />
+              <path d="M22 2 15 22 11 13 2 9l20-7z" />
+            </svg>
+            <span class="btn-spinner" hidden>
+              <svg class="spinner-svg" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" stroke-dasharray="31.4"
+                  stroke-dashoffset="31.4" stroke-linecap="round" />
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="input-meta">
+          <span class="char-count"><span id="charCount">0</span>/500</span>
+          <span class="hint">Pulsa <kbd>Ctrl</kbd>+<kbd>Enter</kbd> para enviar</span>
+        </div>
+      </form>
+
+      <!-- Quick queries section (NUEVO) -->
+      <div class="quick-queries">
+        <span class="quick-queries-label">Consultas rápidas:</span>
+        <div class="quick-queries-chips">
+          <button type="button" class="quick-chip" data-query="caja">
+            <span class="chip-icon">📦</span>
+            <span class="chip-text">Buscar caja</span>
+          </button>
+          <button type="button" class="quick-chip" data-query="albaran">
+            <span class="chip-icon">🧾</span>
+            <span class="chip-text">Buscar albarán</span>
+          </button>
+          <button type="button" class="quick-chip" data-query="socio">
+            <span class="chip-icon">👤</span>
+            <span class="chip-text">Buscar socio</span>
+          </button>
+        </div>
+
+        <!-- Mini formularios (NUEVO) -->
+        <div class="quick-forms">
+          <!-- Formulario Buscar caja -->
+          <div class="quick-form" id="formCaja" hidden>
+            <div class="quick-form-inner">
+              <label for="inputCaja" class="quick-form-label">Código de caja:</label>
+              <input type="text" id="inputCaja" class="quick-form-input" placeholder="Ej: 5804763" />
+              <button type="button" class="quick-form-btn" data-action="buscar-caja">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.35-4.35" />
+                </svg>
+                Buscar
+              </button>
+            </div>
+          </div>
+
+          <!-- Formulario Buscar albarán -->
+          <div class="quick-form" id="formAlbaran" hidden>
+            <div class="quick-form-inner">
+              <label for="inputAlbaran" class="quick-form-label">Número de albarán:</label>
+              <input type="text" id="inputAlbaran" class="quick-form-input" placeholder="Ej: 11502097" />
+              <button type="button" class="quick-form-btn" data-action="buscar-albaran">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.35-4.35" />
+                </svg>
+                Ver cajas
+              </button>
+            </div>
+          </div>
+
+          <!-- Formulario Buscar socio -->
+          <div class="quick-form" id="formSocio" hidden>
+            <div class="quick-form-inner">
+              <label for="inputSocio" class="quick-form-label">Código de socio:</label>
+              <input type="text" id="inputSocio" class="quick-form-input" placeholder="Ej: 19" />
+              <button type="button" class="quick-form-btn" data-action="buscar-socio">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.35-4.35" />
+                </svg>
+                Ver cajas
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Results section -->
+    <section id="resultsSection" class="results-section" hidden>
+
+      <!-- Data table card -->
+      <div class="table-card" id="tableCard" hidden>
+        <div class="table-header">
+          <h3 class="table-title">Resultados</h3>
+          <span class="table-rows" id="tableRows"></span>
+
+          <div class="export-menu">
+            <button class="export-btn" id="exportToggleBtn" type="button" title="Exportar resultados">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Exportar
+            </button>
+
+            <div class="export-dropdown" id="exportDropdown" hidden>
+              <button type="button" class="export-option" id="exportExcelBtn">
+                📗 Exportar Excel
+              </button>
+              <button type="button" class="export-option" id="exportPdfBtn">
+                📕 Exportar PDF
+              </button>
+              <button type="button" class="export-option" id="exportCsvBtn">
+                📊 Exportar CSV
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-wrapper">
+          <table class="data-table" id="dataTable">
+            <thead id="tableHead"></thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Response card -->
+      <div class="response-card" id="responseCard">
+        <div class="response-header">
+          <div class="response-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 20h9" />
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+            </svg>
+          </div>
+          <h2 class="response-title">Respuesta del agente</h2>
+          <div class="response-meta" id="responseMeta"></div>
+        </div>
+        <p class="response-message" id="responseMessage"></p>
+      </div>
+
+      <!-- SQL card -->
+      <div class="sql-card" id="sqlCard">
+        <div class="sql-header">
+          <span class="sql-badge">SQL generado</span>
+          <button class="copy-btn" id="copyBtn" title="Copiar SQL">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+            </svg>
+            <span>Copiar</span>
+          </button>
+        </div>
+        <pre class="sql-code" id="sqlCode"></pre>
+      </div>
+
+    </section>
+
+    <!-- History section -->
+    <section class="history-section" id="historySection" hidden>
+      <div class="history-header">
+        <h3 class="history-title">Historial de consultas</h3>
+        <button class="clear-history-btn" id="clearHistoryBtn">Limpiar</button>
+      </div>
+      <ul class="history-list" id="historyList"></ul>
+    </section>
+
+    <!-- Error banner -->
+    <div class="error-banner" id="errorBanner" hidden>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10" />
+        <line x1="12" y1="8" x2="12" y2="12" />
+        <line x1="12" y1="16" x2="12.01" y2="16" />
+      </svg>
+      <p id="errorMessage"></p>
+      <button class="error-close" id="errorClose">✕</button>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span>Agente SQL &copy; 2026</span>
+    <span class="footer-sep">·</span>
+    <a href="http://localhost:8000/docs" target="_blank" rel="noopener" class="footer-link">API Docs</a>
+  </footer>
+
+  <script src="js/app.js?v=2.3"></script>
+</body>
+
+</html>
